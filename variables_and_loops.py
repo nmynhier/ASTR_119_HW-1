@@ -21,13 +21,3 @@ def main():
 #execute the main function
 if __name__ == "__main__":
 	main()
-	
-print("IT WORKED")
-
-i = 0
-
-while (i<119):
-	print(i)
-	i += 10
-	
-print("IT WORKED AGAIN")
