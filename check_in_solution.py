@@ -1,21 +1,24 @@
+#include the numpy library
 import numpy as np
 
+#define the main() function
 def main():
 
-	i = 0
-	x = 119.0
+	i = 0				#declare an integer i
 	
-	for i in range(120):
-		if((i%2)==0):
-			x += 3
-		else:
-			x -= 5
+	x = 119.0			#declare a float x
+	
+	for i in range(120):		#loop i from 0 to 119, inclusive
+		if((i%2)==0):		#if i is even
+			x += 3		#add 3 to x
+		else:			#if i is odd
+			x -= 5		#subtract 5 from x
 			
-	s = "%3.2e" % x
+	s = "%3.2e" % x			#make a string containing x with Sci. notation w/ 2 decimal places
+					
+	print(s)			#print s to the screen
 	
-	print(s)
+#now the rest of the program continues
 	
-if __name__ == "__main__":
+if __name__ == "__main__":		#if the main()functionexists, run it
 	main()
-
-print("IT WORKED")
