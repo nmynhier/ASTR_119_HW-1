@@ -20,14 +20,14 @@ print(y)
 #how how many elements are 0.0
 print(y.count(0.0))
 
-#print(y.index(3.7))
+#print the index with a value of 3.7
 print(y.index(3.7))
 
 #sort the list
 y.sort()
 print(y)
 
-#reverse()
+#reverse sort the list
 y.reverse()
 print(y)
 
