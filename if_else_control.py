@@ -1,3 +1,4 @@
+#define a function
 def flow_control(k):
 
 	#define a string based on the value of k
@@ -9,6 +10,7 @@ def flow_control(k):
 		
 	else:
 		s = "Variable k = %d does not equal 0 or 1." % k
+		
 	#print the variable		
 	print(s)
 
@@ -25,6 +27,6 @@ def main():
 	i = 2
 	flow_control(i)
 	
-	
+	#run the program
 if __name__ == "__main__":
 	main()
